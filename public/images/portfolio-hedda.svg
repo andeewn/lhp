@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100">
+  <defs>
+    <linearGradient id="hedda-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1010" />
+      <stop offset="50%" stop-color="#5d2d28" />
+      <stop offset="100%" stop-color="#d7b48f" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1100" fill="url(#hedda-bg)" />
+  <rect x="160" y="120" width="1280" height="860" rx="40" fill="rgba(255,255,255,.05)" stroke="rgba(255,255,255,.22)" />
+  <path d="M780 210h58v610h-58z" fill="rgba(255,255,255,.16)" />
+  <path d="M515 858c60-127 140-224 239-291 99-67 206-101 320-101 64 0 125 11 182 34v258H515Z" fill="rgba(20,12,12,.64)" />
+  <circle cx="805" cy="396" r="146" fill="rgba(245,221,193,.62)" />
+  <text x="206" y="918" fill="#fff4e9" font-family="Georgia, serif" font-size="62" letter-spacing="8">HEDDA GABLER</text>
+  <text x="206" y="980" fill="rgba(255,244,233,.74)" font-family="Arial, sans-serif" font-size="30" letter-spacing="6">stage production placeholder</text>
+</svg>

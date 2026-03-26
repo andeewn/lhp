@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="drama-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111419" />
+      <stop offset="50%" stop-color="#415667" />
+      <stop offset="100%" stop-color="#d7ccb9" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#drama-bg)" />
+  <circle cx="955" cy="178" r="118" fill="rgba(255,242,225,.42)" />
+  <path d="M310 610c48-141 110-241 189-302 78-60 166-90 264-90 46 0 97 8 154 23v369H310Z" fill="rgba(15,13,18,.54)" />
+  <text x="100" y="612" fill="#fff7ee" font-family="Georgia, serif" font-size="52" letter-spacing="8">DRAMA SCENE</text>
+</svg>

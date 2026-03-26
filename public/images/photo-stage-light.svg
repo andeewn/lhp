@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 950">
+  <defs>
+    <linearGradient id="stage-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#160f13" />
+      <stop offset="50%" stop-color="#5d3941" />
+      <stop offset="100%" stop-color="#d7bc9f" />
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="950" fill="url(#stage-bg)" />
+  <path d="M0 870c263-92 489-138 679-138 224 0 465 46 721 138v80H0Z" fill="rgba(8,5,7,.46)" />
+  <path d="M694 159 915 708H473Z" fill="rgba(255,240,214,.18)" />
+  <circle cx="702" cy="260" r="165" fill="rgba(255,236,208,.48)" />
+  <text x="120" y="848" fill="#fff5ea" font-family="Georgia, serif" font-size="52" letter-spacing="8">STAGE LIGHT</text>
+</svg>

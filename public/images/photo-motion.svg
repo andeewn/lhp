@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 950">
+  <defs>
+    <linearGradient id="motion-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1d1111" />
+      <stop offset="45%" stop-color="#8a5d44" />
+      <stop offset="100%" stop-color="#f0dfc7" />
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="950" fill="url(#motion-bg)" />
+  <path d="M242 707c104-208 244-343 422-405l131 107-164 86 278 58-142 120 214 43-739 95Z" fill="rgba(255,246,235,.18)" />
+  <circle cx="1140" cy="220" r="124" fill="rgba(255,245,228,.42)" />
+  <text x="108" y="862" fill="#fff6eb" font-family="Georgia, serif" font-size="54" letter-spacing="8">MOVEMENT STILL</text>
+</svg>

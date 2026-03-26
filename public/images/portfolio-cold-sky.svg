@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1100">
+  <defs>
+    <linearGradient id="cold-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1620" />
+      <stop offset="52%" stop-color="#446175" />
+      <stop offset="100%" stop-color="#d9c9b5" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1100" fill="url(#cold-bg)" />
+  <rect x="108" y="108" width="1384" height="884" rx="34" fill="rgba(255,255,255,.05)" stroke="rgba(255,255,255,.26)" />
+  <path d="M0 850c179-68 370-103 573-103 251 0 594 82 1027 247v106H0Z" fill="rgba(12,10,17,.42)" />
+  <circle cx="1198" cy="250" r="128" fill="rgba(255,240,215,.5)" />
+  <path d="M605 869c51-150 122-263 211-338 89-74 186-112 292-112 51 0 103 10 157 29v420H605Z" fill="rgba(18,14,15,.56)" />
+  <text x="136" y="928" fill="#f9efe3" font-family="Georgia, serif" font-size="60" letter-spacing="8">COLD SKY</text>
+  <text x="136" y="990" fill="rgba(249,239,227,.72)" font-family="Arial, sans-serif" font-size="30" letter-spacing="6">feature film still placeholder</text>
+</svg>

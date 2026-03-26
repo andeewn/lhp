@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1300">
+  <defs>
+    <linearGradient id="night-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090c15" />
+      <stop offset="48%" stop-color="#2a334d" />
+      <stop offset="100%" stop-color="#b48a6d" />
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1300" fill="url(#night-bg)" />
+  <circle cx="540" cy="250" r="120" fill="rgba(255,241,216,.58)" />
+  <ellipse cx="506" cy="548" rx="204" ry="248" fill="rgba(231,213,195,.92)" />
+  <path d="M250 1102c33-154 95-274 188-360 92-85 191-128 298-128 59 0 116 12 171 35v453H250Z" fill="rgba(6,8,14,.68)" />
+  <text x="94" y="1194" fill="#f8efe5" font-family="Georgia, serif" font-size="44" letter-spacing="8">NIGHT PORTRAIT</text>
+</svg>
