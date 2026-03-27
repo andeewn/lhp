@@ -123,7 +123,7 @@ export interface SiteContent {
 }
 
 export const siteContent: SiteContent = {
-  name: "Lisa Pilerud",
+  name: "Lisa P",
   role: {
     en: "Actor for screen, stage, and voice",
     sv: "Skådespelare för film, scen och voice",
@@ -254,11 +254,11 @@ export const siteContent: SiteContent = {
     },
     paragraphs: {
       en: [
-        "Lisa Pilerud is an actor with a background in film, television, and contemporary theatre. The work sits between precision and vulnerability, with a presence that reads equally well in intimate close-up and on a large stage.",
+        "Lisa P is an actor with a background in film, television, and contemporary theatre. The work sits between precision and vulnerability, with a presence that reads equally well in intimate close-up and on a large stage.",
         "This template is structured for real casting use: it keeps the experience clean, image-led, and easy to update whenever you add a new credit, gallery image, festival screening, or profile link.",
       ],
       sv: [
-        "Lisa Pilerud är en skådespelare med bakgrund inom film, tv och samtida teater. Arbetet rör sig mellan precision och sårbarhet, med en närvaro som fungerar lika starkt i nära bild som på stor scen.",
+        "Lisa P är en skådespelare med bakgrund inom film, tv och samtida teater. Arbetet rör sig mellan precision och sårbarhet, med en närvaro som fungerar lika starkt i nära bild som på stor scen.",
         "Mallen är byggd för faktisk castinganvändning: upplevelsen är ren, bilddriven och enkel att uppdatera när du får nya credits, nya stillbilder, festivalvisningar eller profillänkar.",
       ],
     },
@@ -410,7 +410,7 @@ export const siteContent: SiteContent = {
     files: [
       {
         locale: "en",
-        href: "/cv/lisa-pilerud-cv-en.pdf",
+        href: "/cv/lisa-p-cv-en.pdf",
         label: {
           en: "Download English CV",
           sv: "Ladda ned engelskt CV",
@@ -418,7 +418,7 @@ export const siteContent: SiteContent = {
       },
       {
         locale: "sv",
-        href: "/cv/lisa-pilerud-cv-sv.pdf",
+        href: "/cv/lisa-p-cv-sv.pdf",
         label: {
           en: "Download Swedish CV",
           sv: "Ladda ned svenskt CV",
