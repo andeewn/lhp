@@ -122,6 +122,17 @@ export interface SiteContent {
   };
 }
 
+const repoName = "/lhp";
+const basePath = process.env.GITHUB_PAGES === "true" ? repoName : "";
+
+function withBasePath(path: string): string {
+  if (!path.startsWith("/") || path.startsWith("//")) {
+    return path;
+  }
+
+  return `${basePath}${path}`;
+}
+
 export const siteContent: SiteContent = {
   name: "Lisa P",
   role: {
@@ -149,7 +160,7 @@ export const siteContent: SiteContent = {
       en: "Currently available for feature, premium television, and theatre projects.",
       sv: "Tillgänglig för långfilm, premiumserier och scenproduktioner.",
     },
-    image: "/images/hero-portrait.svg",
+    image: withBasePath("/images/hero-portrait.svg"),
     imageAlt: {
       en: "Editorial portrait placeholder for the lead actor",
       sv: "Porträttplaceholder i editorial stil för skådespelaren",
@@ -300,7 +311,7 @@ export const siteContent: SiteContent = {
         provider: "youtube",
         url: "https://www.youtube.com/watch?v=jNQXAC9IVRw",
         featured: true,
-        thumbnail: "/video-thumbs/featured-reel.svg",
+        thumbnail: withBasePath("/video-thumbs/featured-reel.svg"),
         title: {
           en: "Main showreel",
           sv: "Huvudreel",
@@ -313,7 +324,7 @@ export const siteContent: SiteContent = {
       {
         provider: "vimeo",
         url: "https://vimeo.com/76979871",
-        thumbnail: "/video-thumbs/drama-scene.svg",
+        thumbnail: withBasePath("/video-thumbs/drama-scene.svg"),
         title: {
           en: "Drama scene excerpt",
           sv: "Dramascen",
@@ -326,7 +337,7 @@ export const siteContent: SiteContent = {
       {
         provider: "youtube",
         url: "https://youtu.be/ysz5S6PUM-U",
-        thumbnail: "/video-thumbs/commercial-spot.svg",
+        thumbnail: withBasePath("/video-thumbs/commercial-spot.svg"),
         title: {
           en: "Commercial and movement edit",
           sv: "Reklam och rörelseklipp",
@@ -349,7 +360,7 @@ export const siteContent: SiteContent = {
     },
     items: [
       {
-        image: "/images/portfolio-cold-sky.svg",
+        image: withBasePath("/images/portfolio-cold-sky.svg"),
         link: "https://example.com/cold-sky",
         tag: {
           en: "Feature film",
@@ -365,7 +376,7 @@ export const siteContent: SiteContent = {
         },
       },
       {
-        image: "/images/portfolio-glass-house.svg",
+        image: withBasePath("/images/portfolio-glass-house.svg"),
         link: "https://example.com/glass-house",
         tag: {
           en: "Streaming series",
@@ -381,7 +392,7 @@ export const siteContent: SiteContent = {
         },
       },
       {
-        image: "/images/portfolio-hedda.svg",
+        image: withBasePath("/images/portfolio-hedda.svg"),
         link: "https://example.com/hedda",
         tag: {
           en: "Stage production",
@@ -410,7 +421,7 @@ export const siteContent: SiteContent = {
     files: [
       {
         locale: "en",
-        href: "/cv/lisa-p-cv-en.pdf",
+        href: withBasePath("/cv/lisa-p-cv-en.pdf"),
         label: {
           en: "Download English CV",
           sv: "Ladda ned engelskt CV",
@@ -418,7 +429,7 @@ export const siteContent: SiteContent = {
       },
       {
         locale: "sv",
-        href: "/cv/lisa-p-cv-sv.pdf",
+        href: withBasePath("/cv/lisa-p-cv-sv.pdf"),
         label: {
           en: "Download Swedish CV",
           sv: "Ladda ned svenskt CV",
@@ -493,7 +504,7 @@ export const siteContent: SiteContent = {
     },
     items: [
       {
-        src: "/images/photo-sandstone.svg",
+        src: withBasePath("/images/photo-sandstone.svg"),
         orientation: "portrait",
         alt: {
           en: "Warm portrait with soft sandstone tones",
@@ -501,7 +512,7 @@ export const siteContent: SiteContent = {
         },
       },
       {
-        src: "/images/photo-stage-light.svg",
+        src: withBasePath("/images/photo-stage-light.svg"),
         orientation: "landscape",
         alt: {
           en: "Backstage scene with directional stage light",
@@ -509,7 +520,7 @@ export const siteContent: SiteContent = {
         },
       },
       {
-        src: "/images/photo-closeup.svg",
+        src: withBasePath("/images/photo-closeup.svg"),
         orientation: "portrait",
         alt: {
           en: "Close-up portrait with editorial framing",
@@ -517,7 +528,7 @@ export const siteContent: SiteContent = {
         },
       },
       {
-        src: "/images/photo-monochrome.svg",
+        src: withBasePath("/images/photo-monochrome.svg"),
         orientation: "square",
         alt: {
           en: "Monochrome studio portrait",
@@ -525,7 +536,7 @@ export const siteContent: SiteContent = {
         },
       },
       {
-        src: "/images/photo-motion.svg",
+        src: withBasePath("/images/photo-motion.svg"),
         orientation: "landscape",
         alt: {
           en: "Movement-focused still from a campaign shoot",
@@ -533,7 +544,7 @@ export const siteContent: SiteContent = {
         },
       },
       {
-        src: "/images/photo-night.svg",
+        src: withBasePath("/images/photo-night.svg"),
         orientation: "portrait",
         alt: {
           en: "Night portrait with dramatic contrast",
