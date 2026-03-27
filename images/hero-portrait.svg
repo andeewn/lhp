@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1500">
+  <defs>
+    <linearGradient id="hero-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2b1d17" />
+      <stop offset="50%" stop-color="#7b4e39" />
+      <stop offset="100%" stop-color="#e3c4a5" />
+    </linearGradient>
+    <radialGradient id="hero-light" cx="50%" cy="22%" r="60%">
+      <stop offset="0%" stop-color="#f4e2cd" stop-opacity=".95" />
+      <stop offset="100%" stop-color="#f4e2cd" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="1500" fill="url(#hero-bg)" />
+  <rect x="108" y="108" width="984" height="1284" rx="48" fill="rgba(255,255,255,.05)" stroke="rgba(255,255,255,.3)" />
+  <circle cx="620" cy="360" r="360" fill="url(#hero-light)" />
+  <path d="M381 1209c66-258 143-445 230-561 87-116 189-174 307-174 62 0 122 18 182 54v756H381Z" fill="rgba(16,12,10,.44)" />
+  <ellipse cx="665" cy="620" rx="238" ry="278" fill="#f1d7bd" />
+  <path d="M450 1125c0-178 73-322 219-432 145 110 217 254 217 432H450Z" fill="#201611" />
+  <path d="M475 575c37-120 101-197 194-233 92 36 155 113 189 233-32 72-95 108-189 108S506 647 475 575Z" fill="#2f1f18" />
+  <text x="126" y="1334" fill="#fff4e9" font-family="Georgia, serif" font-size="42" letter-spacing="8">REPLACE WITH YOUR HERO PORTRAIT</text>
+  <text x="126" y="1386" fill="rgba(255,244,233,.72)" font-family="Arial, sans-serif" font-size="28" letter-spacing="6">1200 × 1500 placeholder</text>
+</svg>

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="spot-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2a1812" />
+      <stop offset="52%" stop-color="#9a6a4e" />
+      <stop offset="100%" stop-color="#f0ddc3" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#spot-bg)" />
+  <path d="M226 530c108-236 262-378 460-427l170 115-208 112 314 73-173 137 233 68-796 75Z" fill="rgba(255,244,230,.18)" />
+  <text x="100" y="612" fill="#fff6ea" font-family="Georgia, serif" font-size="52" letter-spacing="8">COMMERCIAL CUT</text>
+</svg>

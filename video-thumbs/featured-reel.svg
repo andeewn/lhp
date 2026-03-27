@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720">
+  <defs>
+    <linearGradient id="reel-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#191110" />
+      <stop offset="50%" stop-color="#7a4d39" />
+      <stop offset="100%" stop-color="#dcc0a3" />
+    </linearGradient>
+  </defs>
+  <rect width="1280" height="720" fill="url(#reel-bg)" />
+  <rect x="82" y="82" width="1116" height="556" rx="28" fill="rgba(255,255,255,.05)" stroke="rgba(255,255,255,.2)" />
+  <circle cx="640" cy="360" r="118" fill="rgba(255,245,232,.78)" />
+  <polygon points="606,298 728,360 606,422" fill="#3a2419" />
+  <text x="110" y="612" fill="#fff6eb" font-family="Georgia, serif" font-size="54" letter-spacing="8">FEATURED REEL</text>
+</svg>

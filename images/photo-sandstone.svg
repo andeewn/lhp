@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1300">
+  <defs>
+    <linearGradient id="sand-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ede2d5" />
+      <stop offset="100%" stop-color="#8d5a43" />
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1300" fill="url(#sand-bg)" />
+  <circle cx="510" cy="360" r="280" fill="rgba(255,246,238,.55)" />
+  <ellipse cx="500" cy="530" rx="180" ry="220" fill="#f2d9c1" />
+  <path d="M310 1050c34-184 98-323 190-418 92-94 192-141 300-141 55 0 107 11 156 34v525H310Z" fill="rgba(41,26,20,.56)" />
+  <text x="92" y="1180" fill="#fff8f2" font-family="Georgia, serif" font-size="44" letter-spacing="8">EDITORIAL PORTRAIT</text>
+</svg>

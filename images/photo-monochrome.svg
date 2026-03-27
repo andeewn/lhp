@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1100">
+  <defs>
+    <linearGradient id="mono-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111111" />
+      <stop offset="55%" stop-color="#6d625b" />
+      <stop offset="100%" stop-color="#f1e7dc" />
+    </linearGradient>
+  </defs>
+  <rect width="1100" height="1100" fill="url(#mono-bg)" />
+  <circle cx="540" cy="360" r="260" fill="rgba(255,255,255,.18)" />
+  <ellipse cx="550" cy="510" rx="210" ry="250" fill="rgba(250,244,239,.74)" />
+  <path d="M268 980c34-158 97-281 188-367 91-86 190-129 297-129 60 0 118 12 175 37v459H268Z" fill="rgba(18,18,18,.62)" />
+  <text x="118" y="1000" fill="#fbf6ef" font-family="Georgia, serif" font-size="48" letter-spacing="8">MONOCHROME</text>
+</svg>
