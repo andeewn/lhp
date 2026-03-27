@@ -1,6 +1,12 @@
 "use client";
 
-import { useEffect, useState, useSyncExternalStore, useTransition } from "react";
+import {
+  useEffect,
+  useState,
+  useSyncExternalStore,
+  useTransition,
+  type SVGProps,
+} from "react";
 
 import type {
   ExternalLink,
@@ -31,17 +37,91 @@ const photoAspect: Record<NonNullable<PhotoItem["orientation"]>, string> = {
   square: "aspect-square",
 };
 
+function LinkTypeIcon({
+  type,
+  className,
+}: {
+  type: ExternalLink["type"];
+  className?: string;
+}) {
+  const props: SVGProps<SVGSVGElement> = {
+    "aria-hidden": true,
+    className,
+    fill: "none",
+    stroke: "currentColor",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 1.8,
+    viewBox: "0 0 24 24",
+  };
+
+  switch (type) {
+    case "email":
+      return (
+        <svg {...props}>
+          <rect x="3.5" y="6" width="17" height="12" rx="2.5" />
+          <path d="m5.5 8 6.5 5 6.5-5" />
+        </svg>
+      );
+    case "agent":
+      return (
+        <svg {...props}>
+          <path d="M8 20v-6a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v6" />
+          <path d="M7 20h10" />
+          <path d="M9 8V6.8A1.8 1.8 0 0 1 10.8 5h2.4A1.8 1.8 0 0 1 15 6.8V8" />
+          <rect x="5" y="8" width="14" height="4" rx="1.5" />
+        </svg>
+      );
+    case "imdb":
+      return (
+        <svg {...props}>
+          <rect x="3.5" y="6" width="17" height="12" rx="2.5" />
+          <path d="M8 9.5v5" />
+          <path d="M10.5 9.5v5" />
+          <path d="M10.5 12h2.2" />
+          <path d="M12.7 9.5v5" />
+          <path d="M15 14.5v-5l2.4 3v-3l1.6 5" />
+        </svg>
+      );
+    case "spotlight":
+      return (
+        <svg {...props}>
+          <path d="m12 3 2.2 4.8 5.3.6-4 3.6 1.1 5.1L12 14.3 7.4 17l1.1-5.1-4-3.6 5.3-.6Z" />
+        </svg>
+      );
+    case "instagram":
+      return (
+        <svg {...props}>
+          <rect x="4" y="4" width="16" height="16" rx="4.5" />
+          <circle cx="12" cy="12" r="3.5" />
+          <circle cx="17" cy="7.5" r="0.8" fill="currentColor" stroke="none" />
+        </svg>
+      );
+    case "website":
+      return (
+        <svg {...props}>
+          <circle cx="12" cy="12" r="8" />
+          <path d="M4.5 12h15" />
+          <path d="M12 4a13.5 13.5 0 0 1 0 16" />
+          <path d="M12 4a13.5 13.5 0 0 0 0 16" />
+        </svg>
+      );
+    default:
+      return null;
+  }
+}
+
 interface ActorHomepageProps {
   content: SiteContent;
 }
 
 function getStoredLocale(): Locale {
   if (typeof window === "undefined") {
-    return "en";
+    return "sv";
   }
 
   const stored = window.localStorage.getItem(STORAGE_KEY);
-  return stored === "en" || stored === "sv" ? stored : "en";
+  return stored === "en" || stored === "sv" ? stored : "sv";
 }
 
 function subscribeToLocale(onStoreChange: () => void): () => void {
@@ -73,7 +153,7 @@ export function ActorHomepage({ content }: ActorHomepageProps) {
   const locale = useSyncExternalStore<Locale>(
     subscribeToLocale,
     getStoredLocale,
-    () => "en",
+    () => "sv",
   );
 
   const text = (value: LocalizedText) => value[locale];
@@ -102,6 +182,10 @@ export function ActorHomepage({ content }: ActorHomepageProps) {
 
   const activePhoto =
     selectedPhotoIndex !== null ? content.photos.items[selectedPhotoIndex] : null;
+
+  useEffect(() => {
+    document.documentElement.lang = locale;
+  }, [locale]);
 
   useEffect(() => {
     if (selectedPhotoIndex === null) {
@@ -203,7 +287,7 @@ export function ActorHomepage({ content }: ActorHomepageProps) {
               <span className="px-3 text-xs font-semibold uppercase tracking-[0.24em] text-[var(--muted)]">
                 {text(content.ui.languageLabel)}
               </span>
-              {(["en", "sv"] as const).map((option) => {
+              {(["sv", "en"] as const).map((option) => {
                 const active = locale === option;
 
                 return (
@@ -220,7 +304,7 @@ export function ActorHomepage({ content }: ActorHomepageProps) {
                     onClick={() => changeLocale(option)}
                     type="button"
                   >
-                    {option === "en" ? "EN" : "SV"}
+                    {option === "sv" ? "SV" : "EN"}
                   </button>
                 );
               })}
@@ -572,10 +656,11 @@ export function ActorHomepage({ content }: ActorHomepageProps) {
                     >
                       <span
                         className={[
-                          "inline-flex rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em]",
+                          "inline-flex items-center gap-2 rounded-full px-3 py-1 text-xs font-semibold uppercase tracking-[0.18em]",
                           linkTone[link.type],
                         ].join(" ")}
                       >
+                        <LinkTypeIcon className="h-3.5 w-3.5 shrink-0" type={link.type} />
                         {link.label}
                       </span>
                       {link.note ? (

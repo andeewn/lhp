@@ -123,42 +123,42 @@ export interface SiteContent {
 }
 
 export const siteContent: SiteContent = {
-  name: "Alex Arden",
+  name: "Lisa Pilerud",
   role: {
     en: "Actor for screen, stage, and voice",
-    sv: "Skadespelare for film, scen och voice",
+    sv: "Skådespelare för film, scen och voice",
   },
   baseLocation: {
-    en: "Based in Stockholm and available across Europe",
-    sv: "Bas i Stockholm och tillganglig i hela Europa",
+    en: "Based in London / Stockholm and available across Europe",
+    sv: "Bas i London / Stockholm och tillgänglig i hela Europa",
   },
   hero: {
     eyebrow: {
-      en: "Stockholm / London / International work",
-      sv: "Stockholm / London / Internationella projekt",
+      en: "London / Stockholm / International work",
+      sv: "London / Stockholm / Internationella projekt",
     },
     headline: {
       en: "Grounded performances with cinematic intensity and quiet magnetism.",
-      sv: "Forankrade roller med filmisk intensitet och stilla dragningskraft.",
+      sv: "Förankrade roller med filmisk intensitet och stilla dragningskraft.",
     },
     intro: {
       en: "Use this homepage as your polished casting-facing profile: feature your reel, selected credits, downloadable CV, stills, and the links that matter most.",
-      sv: "Anvand den har hemsidan som din eleganta profil for casting: visa reel, utvalda credits, nedladdningsbart CV, stillbilder och de lankar som betyder mest.",
+      sv: "Använd den här hemsidan som din eleganta profil för casting: visa reel, utvalda credits, nedladdningsbart CV, stillbilder och de länkar som betyder mest.",
     },
     availability: {
       en: "Currently available for feature, premium television, and theatre projects.",
-      sv: "Tillganglig for langfilm, premiumserier och scenproduktioner.",
+      sv: "Tillgänglig för långfilm, premiumserier och scenproduktioner.",
     },
     image: "/images/hero-portrait.svg",
     imageAlt: {
       en: "Editorial portrait placeholder for the lead actor",
-      sv: "Portrattplaceholder i editorial stil for skadespelaren",
+      sv: "Porträttplaceholder i editorial stil för skådespelaren",
     },
   },
   ui: {
     languageLabel: {
       en: "Language",
-      sv: "Sprak",
+      sv: "Språk",
     },
     navigation: {
       about: {
@@ -183,7 +183,7 @@ export const siteContent: SiteContent = {
       },
       links: {
         en: "Links",
-        sv: "Lankar",
+        sv: "Länkar",
       },
     },
     watchReel: {
@@ -196,11 +196,11 @@ export const siteContent: SiteContent = {
     },
     contact: {
       en: "Contact links",
-      sv: "Kontaktlankar",
+      sv: "Kontaktlänkar",
     },
     openGallery: {
       en: "Open gallery image",
-      sv: "Oppna bild",
+      sv: "Öppna bild",
     },
     viewPortfolioItem: {
       en: "View project",
@@ -208,7 +208,7 @@ export const siteContent: SiteContent = {
     },
     viewProfileLink: {
       en: "Open link",
-      sv: "Oppna lank",
+      sv: "Öppna länk",
     },
     featuredReel: {
       en: "Featured reel",
@@ -228,72 +228,72 @@ export const siteContent: SiteContent = {
     },
     directLinks: {
       en: "Professional links",
-      sv: "Professionella lankar",
+      sv: "Professionella länkar",
     },
     closeLightbox: {
       en: "Close",
-      sv: "Stang",
+      sv: "Stäng",
     },
     previousPhoto: {
       en: "Previous photo",
-      sv: "Forra bild",
+      sv: "Förra bild",
     },
     nextPhoto: {
       en: "Next photo",
-      sv: "Nasta bild",
+      sv: "Nästa bild",
     },
   },
   about: {
     heading: {
       en: "An actor homepage designed to feel premium, confident, and castable.",
-      sv: "En skadespelarsajt som kanns premium, sjalvsaker och castbar.",
+      sv: "En skådespelarsajt som känns premium, självsäker och castbar.",
     },
     intro: {
       en: "Swap the sample copy below with your own biography, current playing age, skills, and representation details.",
-      sv: "Byt ut exempeltexten nedan mot din egen biografi, spelalder, kompetenser och representation.",
+      sv: "Byt ut exempeltexten nedan mot din egen biografi, spelålder, kompetenser och representation.",
     },
     paragraphs: {
       en: [
-        "Alex Arden is an actor with a background in film, television, and contemporary theatre. The work sits between precision and vulnerability, with a presence that reads equally well in intimate close-up and on a large stage.",
+        "Lisa Pilerud is an actor with a background in film, television, and contemporary theatre. The work sits between precision and vulnerability, with a presence that reads equally well in intimate close-up and on a large stage.",
         "This template is structured for real casting use: it keeps the experience clean, image-led, and easy to update whenever you add a new credit, gallery image, festival screening, or profile link.",
       ],
       sv: [
-        "Alex Arden ar en skadespelare med bakgrund inom film, tv och samtida teater. Arbetet ror sig mellan precision och sarbarhet, med en narvaro som fungerar lika starkt i nara bild som pa stor scen.",
-        "Mallen ar byggd for faktisk castinganvandning: upplevelsen ar ren, bilddriven och enkel att uppdatera nar du far nya credits, nya stillbilder, festivalvisningar eller profilankar.",
+        "Lisa Pilerud är en skådespelare med bakgrund inom film, tv och samtida teater. Arbetet rör sig mellan precision och sårbarhet, med en närvaro som fungerar lika starkt i nära bild som på stor scen.",
+        "Mallen är byggd för faktisk castinganvändning: upplevelsen är ren, bilddriven och enkel att uppdatera när du får nya credits, nya stillbilder, festivalvisningar eller profillänkar.",
       ],
     },
     stats: [
       {
         label: {
           en: "Playing age",
-          sv: "Spelalder",
+          sv: "Spelålder",
         },
-        value: "27-37",
+        value: "17-30",
       },
       {
         label: {
           en: "Languages",
-          sv: "Sprak",
+          sv: "Språk",
         },
-        value: "EN / SV / ES",
+        value: "SV / EN",
       },
       {
         label: {
           en: "Base",
           sv: "Bas",
         },
-        value: "Stockholm",
+        value: "London / Stockholm",
       },
     ],
   },
   videos: {
     heading: {
       en: "Keep your strongest reel front and center.",
-      sv: "Lat din starkaste reel ligga i fokus.",
+      sv: "Låt din starkaste reel ligga i fokus.",
     },
     intro: {
       en: "Feature one primary reel on the page and support it with extra Vimeo or YouTube clips underneath.",
-      sv: "Lyft fram en huvudreel pa sidan och komplettera med fler Vimeo- eller YouTube-klipp under.",
+      sv: "Lyft fram en huvudreel på sidan och komplettera med fler Vimeo- eller YouTube-klipp under.",
     },
     items: [
       {
@@ -307,7 +307,7 @@ export const siteContent: SiteContent = {
         },
         summary: {
           en: "Lead dramatic material with close-up scenes, natural dialogue, and a sharper cinematic tempo.",
-          sv: "Ledande dramatiskt material med nara scener, naturlig dialog och ett mer filmiskt tempo.",
+          sv: "Ledande dramatiskt material med nära scener, naturlig dialog och ett mer filmiskt tempo.",
         },
       },
       {
@@ -320,7 +320,7 @@ export const siteContent: SiteContent = {
         },
         summary: {
           en: "A quieter dramatic sequence that highlights restraint, listening, and emotional detail.",
-          sv: "En tystare dramatisk sekvens som visar aterhallning, lyssnande och emotionell precision.",
+          sv: "En tystare dramatisk sekvens som visar återhållning, lyssnande och emotionell precision.",
         },
       },
       {
@@ -329,11 +329,11 @@ export const siteContent: SiteContent = {
         thumbnail: "/video-thumbs/commercial-spot.svg",
         title: {
           en: "Commercial and movement edit",
-          sv: "Reklam och rorelseklipp",
+          sv: "Reklam och rörelseklipp",
         },
         summary: {
           en: "A shorter edit for commercial tone, physicality, and camera presence.",
-          sv: "En kortare edit for reklamton, fysikalitet och kameranarvaro.",
+          sv: "En kortare edit för reklamton, fysikalitet och kameranärvaro.",
         },
       },
     ],
@@ -341,11 +341,11 @@ export const siteContent: SiteContent = {
   portfolio: {
     heading: {
       en: "An image-led portfolio for productions, campaigns, and theatre.",
-      sv: "En bilddriven portfolio for produktioner, kampanjer och teater.",
+      sv: "En bilddriven portfolio för produktioner, kampanjer och teater.",
     },
     intro: {
       en: "Use this section for hero projects, press stills, posters, fashion editorials, or behind-the-scenes highlights.",
-      sv: "Anvand den har sektionen for huvudprojekt, pressbilder, affischer, editorials eller utvalda behind-the-scenes-bilder.",
+      sv: "Använd den här sektionen för huvudprojekt, pressbilder, affischer, editorials eller utvalda behind-the-scenes-bilder.",
     },
     items: [
       {
@@ -353,7 +353,7 @@ export const siteContent: SiteContent = {
         link: "https://example.com/cold-sky",
         tag: {
           en: "Feature film",
-          sv: "Langfilm",
+          sv: "Långfilm",
         },
         title: {
           en: "Cold Sky",
@@ -361,7 +361,7 @@ export const siteContent: SiteContent = {
         },
         caption: {
           en: "Lead role in a Nordic suspense feature focused on stillness, pressure, and emotional fracture.",
-          sv: "Huvudroll i en nordisk suspensefilm med fokus pa stillhet, press och emotionella sprickor.",
+          sv: "Huvudroll i en nordisk suspensefilm med fokus på stillhet, press och emotionella sprickor.",
         },
       },
       {
@@ -377,7 +377,7 @@ export const siteContent: SiteContent = {
         },
         caption: {
           en: "Supporting role in a prestige limited series with an elegant, high-contrast visual language.",
-          sv: "Biroll i en prestige-miniserie med elegant och hogkontrast visuell ton.",
+          sv: "Biroll i en prestige-miniserie med elegant och högkontrast visuell ton.",
         },
       },
       {
@@ -393,7 +393,7 @@ export const siteContent: SiteContent = {
         },
         caption: {
           en: "Contemporary theatre staging balancing sharp wit, fragility, and formal control.",
-          sv: "Samtida teatertolkning som balanserar skarp intelligens, sarbarhet och formell kontroll.",
+          sv: "Samtida teatertolkning som balanserar skarp intelligens, sårbarhet och formell kontroll.",
         },
       },
     ],
@@ -401,16 +401,16 @@ export const siteContent: SiteContent = {
   cv: {
     heading: {
       en: "Show the essentials on-page and keep the full CV one click away.",
-      sv: "Visa det viktigaste pa sidan och lat hela CV:t ligga ett klick bort.",
+      sv: "Visa det viktigaste på sidan och låt hela CV:t ligga ett klick bort.",
     },
     intro: {
       en: "The layout below is designed for fast scanning by casting directors while still supporting downloadable PDFs.",
-      sv: "Layouten nedan ar gjord for snabb scanning av casting directors och stoder samtidigt nedladdningsbara PDF-filer.",
+      sv: "Layouten nedan är gjord för snabb scanning av casting directors och stöder samtidigt nedladdningsbara PDF-filer.",
     },
     files: [
       {
         locale: "en",
-        href: "/cv/alex-arden-cv-en.pdf",
+        href: "/cv/lisa-pilerud-cv-en.pdf",
         label: {
           en: "Download English CV",
           sv: "Ladda ned engelskt CV",
@@ -418,7 +418,7 @@ export const siteContent: SiteContent = {
       },
       {
         locale: "sv",
-        href: "/cv/alex-arden-cv-sv.pdf",
+        href: "/cv/lisa-pilerud-cv-sv.pdf",
         label: {
           en: "Download Swedish CV",
           sv: "Ladda ned svenskt CV",
@@ -440,7 +440,7 @@ export const siteContent: SiteContent = {
           sv: [
             "Cold Sky - Huvudroll - regi Mira Ek",
             "The Glass House - Biroll - Streamline Originals",
-            "Borrowed Light - Gastroll - North Passage TV",
+            "Borrowed Light - Gästroll - North Passage TV",
           ],
         },
       },
@@ -476,7 +476,7 @@ export const siteContent: SiteContent = {
           sv: [
             "MFA Acting - Stockholm Academy of Dramatic Arts",
             "Meisner Intensive - London Studio Collective",
-            "Scenkamp, grund i dans, vanligt korkort",
+            "Scenkamp, grund i dans, vanligt körkort",
           ],
         },
       },
@@ -485,11 +485,11 @@ export const siteContent: SiteContent = {
   photos: {
     heading: {
       en: "Build a strong visual story with portraits and stills.",
-      sv: "Bygg en stark visuell berattelse med portratt och stillbilder.",
+      sv: "Bygg en stark visuell berättelse med porträtt och stillbilder.",
     },
     intro: {
       en: "The gallery supports headshots, editorial photography, production stills, and campaign images.",
-      sv: "Galleriet stoder headshots, editorialfoto, produktionsstills och kampanjbilder.",
+      sv: "Galleriet stöder headshots, editorialfoto, produktionsstills och kampanjbilder.",
     },
     items: [
       {
@@ -497,7 +497,7 @@ export const siteContent: SiteContent = {
         orientation: "portrait",
         alt: {
           en: "Warm portrait with soft sandstone tones",
-          sv: "Varmt portratt i mjuka sandtoner",
+          sv: "Varmt porträtt i mjuka sandtoner",
         },
       },
       {
@@ -513,7 +513,7 @@ export const siteContent: SiteContent = {
         orientation: "portrait",
         alt: {
           en: "Close-up portrait with editorial framing",
-          sv: "Narabild i editorial framing",
+          sv: "Närbild i editorial framing",
         },
       },
       {
@@ -529,7 +529,7 @@ export const siteContent: SiteContent = {
         orientation: "landscape",
         alt: {
           en: "Movement-focused still from a campaign shoot",
-          sv: "Rorelsebetonad stillbild fran en kampanjfotografering",
+          sv: "Rörelsebetonad stillbild från en kampanjfotografering",
         },
       },
       {
@@ -537,7 +537,7 @@ export const siteContent: SiteContent = {
         orientation: "portrait",
         alt: {
           en: "Night portrait with dramatic contrast",
-          sv: "Nattportratt med dramatisk kontrast",
+          sv: "Nattporträtt med dramatisk kontrast",
         },
       },
     ],
@@ -545,20 +545,20 @@ export const siteContent: SiteContent = {
   links: {
     heading: {
       en: "Keep every important professional link in one clean place.",
-      sv: "Samla alla viktiga professionella lankar pa ett rent stalle.",
+      sv: "Samla alla viktiga professionella länkar på ett rent ställe.",
     },
     intro: {
       en: "Add any platform that matters to your career: agent, IMDb, Spotlight, Instagram, personal website, or custom social links.",
-      sv: "Lagg till de plattformar som spelar roll for din karriar: agent, IMDb, Spotlight, Instagram, egen webbplats eller andra sociala lankar.",
+      sv: "Lägg till de plattformar som spelar roll för din karriär: agent, IMDb, Spotlight, Instagram, egen webbplats eller andra sociala länkar.",
     },
     items: [
       {
         label: "Email",
-        url: "mailto:alex@example.com",
+        url: "mailto:lisa@example.com",
         type: "email",
         note: {
           en: "For direct enquiries and availability.",
-          sv: "For direktkontakt och tillganglighet.",
+          sv: "För direktkontakt och tillgänglighet.",
         },
       },
       {
@@ -591,7 +591,7 @@ export const siteContent: SiteContent = {
         type: "website",
         note: {
           en: "Use for press kits, news, or custom landing pages.",
-          sv: "Anvand for presskit, nyheter eller egna landningssidor.",
+          sv: "Använd för presskit, nyheter eller egna landningssidor.",
         },
       },
     ],
